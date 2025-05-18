@@ -1,0 +1,64 @@
+* {
+    font-family: 'caesar Dressing';
+}
+
+body {
+    background-color: #092601;
+    color: #98BF0A;
+
+}
+
+.header {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 50px;
+    text-decoration: underline 1px;
+    text-align: center;
+}
+
+#main {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.description {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.container {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.container button {
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    color:#092601
+}
+
+#main {
+    font-size: 20px;
+}
+
+#main p:hover {
+    background-color: #98BF0A;
+    color: #092601;
+}
+
+#main #play-again {
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+#main #play-again:hover {
+    background-color: #98BF0A;
+    color: #092601;
+    cursor: pointer;
+}
+
